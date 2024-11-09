@@ -1,0 +1,10 @@
+git add - dodaje plik do stagingu na repo
+git commit -m - komituje zaminy -m to przełącznik wiadomości co było zawarte w zmianach -> max 50 znakow
+git commit reset - usuwa wszystkie commity w stagingu czekajace na wypchnięcie do zdalnego repo
+git status - pozwala sprawdzić które pliki w lokalnym repo sie zmieniły
+git checkout -b <nazwa> - tworzy nowy branch na którym powinna byc zawarta nowa funkcjonalność tak aby po code review
+    PM mógł dołączyć nową funkcjonalność do główej gałęzi projektu
+git checkout - wraca na poprzednią gałąź z której bylo ostatnio przełaczone
+git push <local branch name> <remote  branch name>
+git pull --rebase - zaciaga zmiany ze zdalengo na lokala jak najczesciej robic pozwoli to uniknac pozniej konfilktow
+    do rozwiązania podczas scalnia
